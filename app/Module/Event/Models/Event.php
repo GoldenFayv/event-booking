@@ -1,8 +1,8 @@
 <?php
 
-namespace App\EventModule\Models;
+namespace App\Module\Event\Models;
 
-use App\UserModule\Models\User;
+use App\Module\User\Models\User;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 

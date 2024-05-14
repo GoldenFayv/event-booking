@@ -1,11 +1,11 @@
 <?php
 
-namespace App\TicketModule\Models;
+namespace App\Module\Ticket\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Module\User\Models\User;
+use App\Module\Event\Models\Event;
 use Illuminate\Database\Eloquent\Model;
-use App\UserModule\Models\User;
-use App\EventModule\Models\Event;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Ticket extends Model
 {

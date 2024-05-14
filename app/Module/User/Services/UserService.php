@@ -1,8 +1,8 @@
 <?php
 
-namespace App\UserModule\Services;
-use App\UserModule\Models\User;
-use App\UserModule\Models\UserOtp;
+namespace App\Module\User\Services;
+use App\Module\User\Models\User;
+use App\Module\User\Models\UserOtp;
 use Illuminate\Support\Facades\Storage;
 
 class UserService

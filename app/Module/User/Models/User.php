@@ -1,6 +1,6 @@
 <?php
 
-namespace App\UserModule\Models;
+namespace App\Module\User\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Laravel\Sanctum\HasApiTokens;
@@ -8,7 +8,7 @@ use Tymon\JWTAuth\Contracts\JWTSubject;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use App\EventModule\Models\Event;
+use App\Module\Event\Models\Event;
 
 class User extends Authenticatable implements JWTSubject
 {

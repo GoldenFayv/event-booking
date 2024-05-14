@@ -1,19 +1,19 @@
 <?php
 
-namespace App\Http\Controllers\Api\V1\User;
+namespace App\Module\User\Controllers;
 
 use Throwable;
 use App\Enums\MailTypes;
 use Illuminate\Http\Request;
 use App\Enums\UserTokenTypes;
 use Illuminate\Http\Response;
-use App\UserModule\Models\User;
+use App\Module\User\Models\User;
 use Tymon\JWTAuth\Facades\JWTAuth;
 use Illuminate\Support\Facades\Log;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use App\UserModule\Services\UserService;
+use App\Module\User\Services\UserService;
 
 class AuthController extends Controller
 {

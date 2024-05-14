@@ -1,9 +1,9 @@
 <?php
 
-namespace App\UserModule\Controllers;
+namespace App\Module\User\Controllers;
 
-use App\UserModule\Models\User;
-use App\UserModule\Services\UserService;
+use App\Module\User\Models\User;
+use App\Module\User\Services\UserService;
 
 class UserController
 {

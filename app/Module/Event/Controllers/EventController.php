@@ -1,9 +1,9 @@
 <?php
 
-namespace App\EventModule\Controllers;
+namespace App\Module\Event\Controllers;
 
 use Illuminate\Http\Request;
-use App\UserModule\Services\UserService;
+use App\Module\User\Services\UserService;
 use App\VenueModule\Rules\BookedVenueCheck;
 
 class EventController
